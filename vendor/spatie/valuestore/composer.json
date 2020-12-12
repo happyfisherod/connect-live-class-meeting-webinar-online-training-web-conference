@@ -1,0 +1,44 @@
+{
+    "name": "spatie/valuestore",
+    "description": "Easily store some values",
+    "keywords": [
+        "spatie",
+        "valuestore",
+        "json"
+    ],
+    "homepage": "https://github.com/spatie/valuestore",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Freek Van der Herten",
+            "email": "freek@spatie.be",
+            "homepage": "https://spatie.be",
+            "role": "Developer"
+        },
+        {
+            "name": "Jolita Grazyte",
+            "email": "jolita@spatie.be",
+            "homepage": "https://spatie.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spatie\\Valuestore\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Spatie\\Valuestore\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}

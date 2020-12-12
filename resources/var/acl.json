@@ -1,0 +1,29 @@
+{
+	"roles": ["admin","user"],
+	"permissions": {
+		"config": {
+			"access-config": [],
+			"access-ui-config": [],
+			"enable-login": ["user"]
+		},
+		"utility": {
+			"access-todo": ["user"]
+		},
+		"user": {
+			"list-user": ["user"],
+			"create-user": [],
+			"edit-user": [],
+			"delete-user": []
+		},
+		"contact": {
+			"access-contact": []
+		},
+		"meeting": {
+			"list-meeting": ["user"],
+			"create-meeting": [],
+			"edit-meeting": [],
+			"delete-meeting": [],
+			"access-meeting-config": []
+		}
+	}
+}
